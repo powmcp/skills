@@ -1,0 +1,40 @@
+{
+	"name": "powmcp-skills",
+	"version": "2026.09.10",
+	"description": "Recurring-job Agent Skills whose evidence step is a hosted PowMCP check, with the remote MCP servers they use.",
+	"mcpServers": {
+		"powmcp-broken-link-check": {
+			"httpUrl": "https://powmcp.com/broken-link-check/mcp"
+		},
+		"powmcp-caption-file-check": {
+			"httpUrl": "https://powmcp.com/caption-file-check/mcp"
+		},
+		"powmcp-einvoice-check": {
+			"httpUrl": "https://powmcp.com/einvoice-check/mcp"
+		},
+		"powmcp-epub-accessibility-check": {
+			"httpUrl": "https://powmcp.com/epub-accessibility-check/mcp"
+		},
+		"powmcp-epub-check": {
+			"httpUrl": "https://powmcp.com/epub-check/mcp"
+		},
+		"powmcp-fhir-server-check": {
+			"httpUrl": "https://powmcp.com/fhir-server-check/mcp"
+		},
+		"powmcp-gtfs-feed-check": {
+			"httpUrl": "https://powmcp.com/gtfs-feed-check/mcp"
+		},
+		"powmcp-npm-package-preflight": {
+			"httpUrl": "https://powmcp.com/npm-package-preflight/mcp"
+		},
+		"powmcp-podcast-feed-check": {
+			"httpUrl": "https://powmcp.com/podcast-feed-check/mcp"
+		},
+		"powmcp-sbom-preflight": {
+			"httpUrl": "https://powmcp.com/sbom-preflight/mcp"
+		},
+		"powmcp-security-headers-check": {
+			"httpUrl": "https://powmcp.com/security-headers-check/mcp"
+		}
+	}
+}
