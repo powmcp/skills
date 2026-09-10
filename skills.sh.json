@@ -1,0 +1,52 @@
+{
+	"$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+	"groupings": [
+		{
+			"name": "release-artifacts",
+			"description": "PowMCP skills for release artifacts jobs.",
+			"skills": [
+				"attach-regulator-ready-bom-to-release",
+				"gate-published-release-before-announcement"
+			]
+		},
+		{
+			"name": "feeds-commerce",
+			"description": "PowMCP skills for feeds commerce jobs.",
+			"skills": [
+				"diagnose-rejected-invoice-before-resubmission",
+				"publish-weekly-episode-without-feed-breakage"
+			]
+		},
+		{
+			"name": "publishing-documents",
+			"description": "PowMCP skills for publishing documents jobs.",
+			"skills": [
+				"preflight-caption-track-before-client-handoff",
+				"preflight-retailer-bound-epub",
+				"substantiate-eu-ebook-accessibility-claim"
+			]
+		},
+		{
+			"name": "health-it",
+			"description": "PowMCP skills for health it jobs.",
+			"skills": [
+				"preflight-client-endpoint-before-integration"
+			]
+		},
+		{
+			"name": "website-delivery",
+			"description": "PowMCP skills for website delivery jobs.",
+			"skills": [
+				"produce-client-site-handoff-report",
+				"verify-payment-page-header-change-after-deploy"
+			]
+		},
+		{
+			"name": "open-data-transit",
+			"description": "PowMCP skills for open data transit jobs.",
+			"skills": [
+				"publish-service-change-feed"
+			]
+		}
+	]
+}

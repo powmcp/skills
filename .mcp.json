@@ -1,0 +1,48 @@
+{
+	"mcpServers": {
+		"powmcp-broken-link-check": {
+			"type": "http",
+			"url": "https://powmcp.com/broken-link-check/mcp"
+		},
+		"powmcp-caption-file-check": {
+			"type": "http",
+			"url": "https://powmcp.com/caption-file-check/mcp"
+		},
+		"powmcp-einvoice-check": {
+			"type": "http",
+			"url": "https://powmcp.com/einvoice-check/mcp"
+		},
+		"powmcp-epub-accessibility-check": {
+			"type": "http",
+			"url": "https://powmcp.com/epub-accessibility-check/mcp"
+		},
+		"powmcp-epub-check": {
+			"type": "http",
+			"url": "https://powmcp.com/epub-check/mcp"
+		},
+		"powmcp-fhir-server-check": {
+			"type": "http",
+			"url": "https://powmcp.com/fhir-server-check/mcp"
+		},
+		"powmcp-gtfs-feed-check": {
+			"type": "http",
+			"url": "https://powmcp.com/gtfs-feed-check/mcp"
+		},
+		"powmcp-npm-package-preflight": {
+			"type": "http",
+			"url": "https://powmcp.com/npm-package-preflight/mcp"
+		},
+		"powmcp-podcast-feed-check": {
+			"type": "http",
+			"url": "https://powmcp.com/podcast-feed-check/mcp"
+		},
+		"powmcp-sbom-preflight": {
+			"type": "http",
+			"url": "https://powmcp.com/sbom-preflight/mcp"
+		},
+		"powmcp-security-headers-check": {
+			"type": "http",
+			"url": "https://powmcp.com/security-headers-check/mcp"
+		}
+	}
+}

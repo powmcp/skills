@@ -1,0 +1,32 @@
+{
+	"name": "powmcp-skills",
+	"owner": {
+		"name": "PowMCP",
+		"url": "https://powmcp.com"
+	},
+	"metadata": {
+		"description": "Recurring-job skills whose evidence step is a hosted PowMCP check.",
+		"version": "2026-09-10"
+	},
+	"plugins": [
+		{
+			"name": "powmcp",
+			"source": "./",
+			"description": "Every published PowMCP skill plus the MCP endpoints they use.",
+			"skills": [
+				"./skills/attach-regulator-ready-bom-to-release",
+				"./skills/diagnose-rejected-invoice-before-resubmission",
+				"./skills/gate-published-release-before-announcement",
+				"./skills/preflight-caption-track-before-client-handoff",
+				"./skills/preflight-client-endpoint-before-integration",
+				"./skills/preflight-retailer-bound-epub",
+				"./skills/produce-client-site-handoff-report",
+				"./skills/publish-service-change-feed",
+				"./skills/publish-weekly-episode-without-feed-breakage",
+				"./skills/substantiate-eu-ebook-accessibility-claim",
+				"./skills/verify-payment-page-header-change-after-deploy"
+			],
+			"mcpServers": "./.mcp.json"
+		}
+	]
+}
